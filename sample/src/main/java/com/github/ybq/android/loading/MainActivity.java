@@ -21,9 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         mViewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
 
-            String[] titles = new String[]{
-                    "page1", "page2"
-            };
+            String[] titles = new String[]{"page1", "page2"};
 
             @Override
             public Fragment getItem(int position) {
